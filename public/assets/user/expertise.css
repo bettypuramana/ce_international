@@ -1,0 +1,172 @@
+.engineering-section {
+    background: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.section-title {
+    color: rgb(30, 64, 34);
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.engineering-text {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    text-align-last: center;
+    font-size: 16px;
+    max-width: 900px;
+    font-weight: 600;
+    margin: auto auto 40px;
+    line-height: 1.6;
+}
+
+.engineering-section img {
+    text-align: center;
+    max-width: 900px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-style img {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .engineering-section img {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 520px) {
+    .engineering-section img {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 420px) {
+    .engineering-section img {
+        max-width: 300px;
+    }
+}
+
+.expertise-section {
+    background: rgb(245, 245, 245);
+}
+
+.expertise-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.expertise-image,
+.expertise-text {
+    flex: 1 1 300px;
+}
+
+.expertise-text h3 {
+    font-size: 24px;
+}
+
+.expertise-text {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    position: relative;
+    color: rgb(30, 64, 34);
+}
+
+.expertise-text ul {
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+.expertise-text li {
+    color: rgb(30, 64, 34);
+}
+
+.expertise-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.eng-services {
+    background-color: rgb(30, 64, 34);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.eng-title {
+    padding: 60px 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+/* accordion section */
+.accordion {
+    background-color: white;
+    margin: auto;
+}
+
+.accordion-section {
+    align-items: center;
+    display: flex;
+    background: rgb(219, 219, 219);
+    margin-bottom: 2px;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: rgb(30, 64, 34);
+    position: relative;
+    justify-content: center;
+}
+
+.accordion-section::after {
+    content: '▾';
+    position: absolute;
+    right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.accordion-section.active::after {
+    transform: rotate(180deg);
+}
+
+.accordion-content p {
+    text-align: justify;
+    text-align-last: center;
+}
+
+.accordion-content {
+    background: white;
+    display: none;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+.accordion-content img{
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.diagram-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (min-width: 1099px) {
+    .accordion-content p {
+        margin: auto 250px;
+    }
+}

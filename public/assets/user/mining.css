@@ -1,0 +1,130 @@
+.mining-section {
+    height: 100vh;
+    min-height: 1000px;
+    background-color: #000;
+    background: url('/assets/user/uploads/mining/mining-bg.png') no-repeat center center / cover;
+    padding: 0 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.mining-title {
+    padding: 60px 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.mining-text {
+    text-align: justify;
+    text-align-last: center;
+    font-size: 17px;
+    max-width: 900px;
+    margin: auto auto 40px;
+    line-height: 1.6;
+}
+
+.services-under {
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.services-text {
+    text-align: justify;
+    text-align-last: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 17px;
+    max-width: 900px;
+    margin: 0;
+    padding: auto;
+    line-height: 1.2;
+}
+
+.mining-under {
+    text-align: center;
+}
+
+@media (min-width: 2160px) {
+    .mining-text {
+        max-width: 1500px;
+    }
+
+    .mining-title {
+        font-size: 48px;
+    }
+
+    .mining-text {
+        font-size: 28px;
+    }
+}
+
+@media(max-width: 600px) {
+    .mining-title {
+        padding: 45px 10px;
+        font-size: 24px;
+    }
+
+    .mining-text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mining-section {
+        min-height: 1305px;
+    }
+}
+
+@media (max-width: 376px) {
+    .mining-section {
+        min-height: 1800px;
+    }
+}
+
+.exp1-section,
+.exp2-section {
+    padding: 60px 20px;
+    background: white;
+    text-align: center;
+}
+
+.exp1-section img {
+    max-width: 900px;
+}
+
+.exp2-section img {
+    max-width: 900px;
+}
+
+.services {
+    background: rgb(80, 54, 41);
+}
+
+.services-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    color: white;
+    padding: 50px 20px;
+}
+
+@media(min-width: 768px) and (max-width: 940px) {
+    .exp1-section img, .exp2-section img {
+        max-width: 700px;
+    }
+}
+
+@media(min-width: 540px) and (max-width: 767px) {
+    .exp1-section img, .exp2-section img {
+        max-width: 500px;
+    }
+}
+
+@media(max-width: 539px) {
+    .exp1-section img, .exp2-section img {
+        max-width: 290px;
+    }
+}
