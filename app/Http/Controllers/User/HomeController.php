@@ -37,7 +37,7 @@ class HomeController extends Controller
             'email' => 'required',
             'phone' => 'required',
             'more' => 'required',
-            'image' => 'required|mimes:pdf,png,jpg,jpeg|max:1024',            
+            'image' => 'required|mimes:pdf,png,jpg,jpeg|max:2048',            
             ],
             [
             'name.required' => 'This field is required',
