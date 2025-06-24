@@ -215,7 +215,7 @@
         });
     });
 </script>
-<script>
+<!-- <script>
 
     // CURSOR SCRIPT
     let clientX = 100;
@@ -296,7 +296,7 @@
 
     initCanvas();
 
-</script>
+</script> -->
 <script>
     lucide.createIcons();
 </script>

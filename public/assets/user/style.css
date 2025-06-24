@@ -10,7 +10,6 @@ body {
     background: #000;
     color: #000;
     overflow-x: hidden;
-    cursor: none;
 }
 
 /* a,
@@ -453,6 +452,10 @@ header {
     position: absolute;
     bottom: 2rem;
     left: 3rem;
+}
+
+.expertise-button:hover {
+    cursor: pointer;
 }
 
 .footer {
