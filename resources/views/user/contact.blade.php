@@ -14,7 +14,7 @@
             <div class="contact-card">
                 <h3>QATAR</h3>
                 <p>Tel: +974 4411 2536</p>
-                <p>Al Reem Tower, West Bay, 11<sup>th</sup> Floor</p>
+                <p>11<sup>th</sup> Floor, Al Reem Tower B37, ST 841, Zone 63</p>
                 <p>P.O. Box: 24355, Doha, Qatar</p>
                 <br><br>
                 <iframe

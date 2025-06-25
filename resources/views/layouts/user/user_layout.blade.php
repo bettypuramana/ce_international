@@ -134,7 +134,7 @@
         <div class="footer-locations">
             <h4>OUR LOCATIONS</h4>
             <p><strong class="highlight">Doha – Qatar</strong><br>
-                11th Floor, Al Reem Tower, Al Wehda St, Doha</p>
+                11<sup>th</sup> Floor, Al Reem Tower B37, ST 841, Zone 63</p>
             <p><strong class="highlight">Muscat – Oman</strong><br>
                 Ghala, Al Fardan Heights Fourth Floor, 424<br>
                 P.O. Box: 47, P.C.: 138</p>
