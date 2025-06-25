@@ -60,11 +60,6 @@
     flex-wrap: wrap;
 }
 
-@media (min-width: 768px) {
-    .expertise-item {
-        flex-direction: row;
-    }
-}
 
 @media (max-width: 1099px) {
     .expertise-item {
